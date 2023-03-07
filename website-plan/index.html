@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+        body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        nav{
+            background-color:white;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            height:60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,2);
+            outline: 1.5px solid #f90804;
+        }
+        nav a{
+            text-decoration:none;
+            font-size: 16px;
+            font-weight:bold;
+            color:#f90804;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li{
+            margin-right: 20px;
+        }
+        .container{
+            display:flex;
+        } 
+        .text{
+            flex:1;
+            padding:20px;
+        }
+        .gallery{
+            display:grid;
+            flex-wrap:wrap;
+            grid-gap:10px;
+            border: 1.5px solid #f90804;
+            padding: 10px;
+            float:right;
+            width:325px;
+            margin-left:10px;
+            margin-right:10px;
+            background-color:#fedadc;
+        }
+        .gallery img{
+            width:150px;
+            height:auto;
+            margin-bottom: 10px;
+        }
+        .gallery-column{
+            flex-basis:50%;
+            float:right;
+        }
+        .cooking{
+            text-align:center;
+            background-color:#fedadc;
+        }
+        .anna{
+            text-align:center;
+            font-weight:lighter;
+        }
+        .text{
+            background-color:#fedadc;
+        }
+.welcome{
+    text-align:center;
+}
+.aboutm{
+    text-align:center;
+    font-weight:lighter;
+}
+.me{
+    color:black;
+}
+.sitemap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: white;
+    border:1.5px solid #f90804;
+    margin-top:10px;
+}
+.column{
+    flex-basis:45%;
+}
+.column li{
+    margin-bottom:1em;
+}
+.column a{
+    color:black;
+    font-size:14px;
+    text-decoration:none;
+}
+.column ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.anna{
+    color:black;
+}
+.lime{
+    position: left;
+    height:60px;
+    padding:20px
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="lime" src="images/lime.jpg" alt="lime" title="lime">
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="apps.html">appetizers</a></li>
+            <li><a href="dinner.html">dinner</a></li>
+            <li><a href="desserts.html">desserts</a></li>
+            <li><a href="bakedgoods.html">baked goods</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul> 
+        <img class="lime" src="images/cookie.2.jpg" alt="lime" title="lime">
+    </nav>
+    <div class="cooking"><h1>cooking diary</h1></div>
+    <div class="anna">BY ANNA KATHERINE SYPNIEWSKI</div>
+    <br>
+    <div class="container">
+    <div class="text">
+        <div class="aboutm">ABOUT ME</div>
+        <div class="welcome"><h2>welcome to cooking diary by ak</h2></div>
+       <div class="me">
+       <p>My name is Anna Katherine Sypniewski and I am a senior at Babson College. I love to cook for my family and friends, so I decided my project will be a webpage dedicated to the recipes I make! Some recipes I find online, some are from cookbooks, and some are family recipes!</p> 
+       <p> My webpage includes appetizer, dinner, dessert, and baked good recipes. Each page will include 5 recipes that I have loved!</p>
+    </div>  
+    </div>
+    <div class="gallery">
+        <div class="gallery-column">
+            <img src="images/scallop.jpeg" alt="Grilled Scallops" title="Grilled Scallops with Peach Sweet Chili Sauce">
+            <img src="images/fish.jpeg" alt="Calabrain Chilie Poached Fish" title="Calabrian Chilie Poached Fish">
+            <img src="images/clam.jpeg" alt="Clam Chowder" title="Creamy Corn & Clam Chowder with Crispy Chorizo">
+            <img src="images/tart.jpeg" alt="Tart" title="Blackberry Caramel Tart">
+            <img src="images/cookies.jpeg" alt="Cookies" title="Chocolate Chip Cookies">
+            <img src="images/figcake.jpeg" alt="Fig Cake" title="Fresh Fig & Ricotta Cake">
+            <img src="images/pie.jpeg" alt="Berry Pie" title="Peach & Berry Summer Pie">
+            <img src="images/turkey.jpeg" alt="Turkey" title="Garlic & Herb Dry-Brined Turkey">
+            <img src="images/chiffon.jpeg" alt="Cake" title="Lemon Orange Chiffon Cake">
+            <img src="images/moulles.jpeg" alt="Moulles" title="Moulles Mariniere">
+        </div>
+    </div>
+    </div>
+    <div class="sitemap">
+        <ul class="column">
+            <li><a class="big" href="index.html">homepage</a></li>
+            
+            <li><a class="big" href="apps.html">appetizers</a></li>
+    
+            <li><a class="big" href="dinner.html">dinner</a>
+            <ul>
+                <li><a href="dinner.html">calabrian chili poached fish</a></li>
+                <li><a href="dinner.html">garlic & herb dry brined turkey</a></li>
+                <li><a href="dinner.html">pan-seared scallops with chorizo & corn</a></li>
+                <li><a href="dinner.html">shrimp & grits</a></li>
+                <li><a href="dinner.html">coq au vin</a></li>
+            </ul>
+            </li>
+        </ul>
+        <ul class="column">
+            <li><a class="big" href="desserts.html">desserts</a></li>
+    
+            <li><a class="big" href="bakedgoods.html">baked goods</a></li>
+    
+            <li><a class="big" href="contact.html">contact</a></li>
+        </ul>
+    </div>
+</body>

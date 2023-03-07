@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <style>
+         body{
+            background-color: white; 
+            color:#f90804; 
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        nav{
+            background-color:white;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            height:60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,2);
+            outline: 1.5px solid #f90804;
+        }
+        nav a{
+            text-decoration:none;
+            font-size: 16px;
+            font-weight:bold;
+            color:#f90804;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li{
+            margin-right: 20px;
+        }
+.app-title{
+            text-align:center;
+            background-color:#fedadc;
+        }
+.sitemap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: white;
+    border:1.5px solid #f90804;
+    margin-top:10px;
+}
+.column{
+    flex-basis:45%;
+}
+.column li{
+    margin-bottom:1em;
+}
+.column a{
+    color:black;
+    font-size:14px;
+    text-decoration:none;
+}
+.column ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.input{
+    background-color: white; 
+     color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    text-align:center;
+    border:none;
+}
+.can{
+    font-weight:lighter;
+    text-align:center;
+}
+.cell{
+text-align:center;
+color:black;
+}
+.connect{
+    text-align:center;
+}
+.lime{
+    position: left;
+    height:60px;
+    padding:20px
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="lime" src="images/lime.jpg" alt="lime" title="lime">
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="apps.html">appetizers</a></li>
+            <li><a href="dinner.html">dinner</a></li>
+            <li><a href="desserts.html">desserts</a></li>
+            <li><a href="bakedgoods.html">baked goods</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul> 
+        <img class="lime" src="images/cookie.2.jpg" alt="lime" title="lime">
+    </nav>
+   <div class="app-title"><h1>contact information</h1></div> 
+<div class="can">
+I CANNOT WAIT TO HEAR FROM YOU
+</div>
+<div class="connect"><h1>let's connect!</h1></div>
+<div class="cell">asypniewski1@babson.edu</div>
+<br>
+<br>
+<hr>
+  <fieldset class="input">
+    <div>
+        <label for="comments">Comments</label>
+    </div>
+    <div class="textbox">
+        <textarea
+        id="comments"
+        name="comments"
+        rows="5"
+        cols="25"
+        placeholder="Enter your comment here...">
+    </textarea>
+    </div>
+    <br>
+    <div>
+     <input type="checkbox" id="email-updates" name="email-updates" value="email-updates" checked>
+     <label for="email-updates">Sign me up for email updates</label>   
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+  </fieldset>
+   <div class="sitemap">
+    <ul class="column">
+        <li><a class="big" href="index.html">homepage</a></li>
+        
+        <li><a class="big" href="apps.html">appetizers</a>
+            <ul>
+                <li><a href="apps.html">moules marinière</a></li>
+                <li><a href="apps.html">gruyère stuffed mushrooms</a></li>
+                <li><a href="apps.html">creamy corn & clam chowder with crispy chorizo</a></li>
+                <li><a href="apps.html">steamed pork dumplings</a></li>
+                <li><a href="apps.html">oysters rockefeller</a></li>
+            </ul>
+            </li>
+
+        <li><a class="big" href="dinner.html">dinner</a>
+        <ul>
+            <li><a href="dinner.html">calabrian chili poached fish</a></li>
+            <li><a href="dinner.html">garlic & herb dry brined turkey</a></li>
+            <li><a href="dinner.html">pan-seared scallops with chorizo & corn</a></li>
+            <li><a href="dinner.html">shrimp & grits</a></li>
+            <li><a href="dinner.html">coq au vin</a></li>
+        </ul>
+        </li>
+    </ul>
+    <ul class="column">
+        <li><a class="big" href="desserts.html">desserts</a></li>
+
+        <li><a class="big" href="bakedgoods.html">baked goods</a></li>
+
+        <li><a class="big" href="contact.html">contact</a></li>
+    </ul>
+</div>
+</body>

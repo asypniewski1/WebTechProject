@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<head>
+    <style>
+         body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        nav{
+            background-color:white;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            height:60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,2);
+            outline: 1.5px solid #f90804;
+        }
+        nav a{
+            text-decoration:none;
+            font-size: 16px;
+            font-weight:bold;
+            color:#f90804;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li{
+            margin-right: 20px;
+        }
+.app-title{
+            text-align:center;
+            background-color:#fedadc;
+        }
+.five{
+   text-align:center;
+  font-weight:lighter;
+  color:black;
+}
+.recipe-title{
+    text-align:center;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.recipe-card{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:900px;
+    
+}
+.recipe-card-2{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1125px;
+}
+.recipe-card-3{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:700px;
+}
+.recipe-card-4{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1250;
+}
+.recipe-card-6{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:950px;
+}
+.recipe-ingredients{
+    color:black;
+    margin-bottom:20px;
+}
+.recipe-ingredients li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.chili-oil{
+    color:#f90804;
+    font-weight:lighter; 
+}
+.list{
+    color:#f90804;
+    font-weight:bold;
+}
+.fish{
+    color:#f90804;
+    font-weight:lighter;
+    border-bottom:1px solid black;
+}
+.recipe-instructions{
+    color:black;
+    text-align:left;
+    margin-bottom:20px;
+}
+.recipe-instructions ol{
+    margin-left: 20px;
+}
+.recipe-instructions li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.fish-pic{
+    float:right;
+    height:400px;
+}
+.sitemap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: white;
+    border:1.5px solid #f90804;
+    margin-top:10px;
+}
+.column{
+    flex-basis:45%;
+}
+.column li{
+    margin-bottom:1em;
+}
+.column a{
+    color:black;
+    font-size:14px;
+    text-decoration:none;
+}
+.column ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+h5{
+    text-align:center;
+}
+.circle{
+    display:inline-block;
+    border-radius:50%;
+    color:white;
+    padding:0.2em 0.5em;
+    background-color:#f90804;
+}
+.lime{
+    position: left;
+    height:60px;
+    padding:20px
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="lime" src="images/lime.jpg" alt="lime" title="lime">
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="apps.html">appetizers</a></li>
+            <li><a href="dinner.html">dinner</a></li>
+            <li><a href="desserts.html">desserts</a></li>
+            <li><a href="bakedgoods.html">baked goods</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul> 
+        <img class="lime" src="images/cookie.2.jpg" alt="lime" title="lime">
+    </nav>
+   <div class="app-title"><h1>appetizers</h1></div> 
+   <div class="five">FIVE DELICOUS APPETIZER RECIPES</div>
+   <div class="recipe-card">
+    <h2 class="recipe-title">moules marinière</h2>
+    <img class="fish-pic" src="images/moulles.jpeg" alt="moules" title="moules marinière">
+    <h5>recipe from julia child's, <i>mastering the art of french cooking</i></h5>
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>2 lbs mussels</li>  
+        <li>2 TBS flour</li>
+        <li>1/2 shallot, finely chopped</li>
+        <li>1 cup white wine</li>
+        <li>1 bay leaf</li>
+        <li>4 parsely sprigs, more for garnish</li>
+        <li>3 thyme sprigs</li>
+        <li>4 TBS butter</li>
+        <li>salt and pepper, to taste</li>
+        <li>1 loaf of good, crusty french bread, for serving</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Scrub each mussel and rinse well. Pull the beard off the mussel and place all cleaned mussels in a bowl filled with cold water. When all mussels are cleaned, sprinkle flour and toss gently.</li>
+        <li>In a pot, bring the butter, shallots, wine, herbs and salt and pepper to a boil. Allow to reduce slightly (about 4-5 minutes).</li>
+        <li>Use your hands to remove the mussels from the floury water and rinse them well in a colander. Don't pour the mussels into the colander because the collected sand could pour right back on them.</li>
+        <li>Add the mussels and close lid on the pot. Allow to cook for about 5 minutes or until the mussels all open up. If there are any closed mussels, discard those.</li>
+        <li>Serve the mussels in wide bowls. Use a ladle to spoon mussels in bowls first, then use the ladle to pour wine sauce over the mussels. Garnish with chopped parsley and crusty French bread.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+   <div class="recipe-card-4">
+    <h2 class="recipe-title">gruyère stuffed mushrooms</h2>
+    <img class="fish-pic" src="images/mushroom.jpeg" alt="mushroom" title="gruyère stuffed mushrooms">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <div class="chili-oil">for mushrooms</div>
+       <li>12 medium brown mushrooms, wiped clean, stems trimmed, then reserved for filling</li>
+       <li>2 tbsp Butter melted</li> 
+        <li>sprinkling salt and pepper</li>
+        <div class="chili-oil">for filling</div>
+        <li>1 tbsp oil</li>
+        <li>1 medium shallot, very finely minced</li>
+        <li>mushroom stems, very finely minced</li>
+        <li>2 tbsp white wine</li>
+        <li>3 tbsp panko bread crumbs</li>
+        <li>1/4 c gruyere, plus more for topping</li>
+        <li>2 tbs parsley, very finely chopped</li>
+        <li>salt & pepper to taste</li>
+        <li>2 tbsp heavy whipping cream</li>
+        <div class="chili-oil">for filling</div>
+        <li>2 tbsp butter, melted</li>
+        <li>sprinkling parmesean</li>
+        <li>sprinkling gruyere</li>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>You'll first need to wipe the mushrooms clean and remove the stems, reserving them for the filling. Trim off the very ends of the stem and discard.</li>
+        <li>Brush with melted butter and season with salt and pepper.</li>
+        <li>Chop the stems and shallot. Saute until tender. You can use oil or butter here. Add the white wine and saute for a few minutes to cook off the alcohol.</li>
+        <li>Add panko bread crumbs, Gruyere and parsley. Stir to combine.</li>
+        <li>Add just enough heavy whipping cream to bring the mixture together, but it shouldn't be wet.</li>
+        <li>Stuff the mushrooms, dividing the mixture evenly.</li>
+        <li>Top each with a pinch of shredded Gruyere, a drizzle of the remaining melted butter and a sprinkle of parmesan.</li>
+        <li>Bake at 375 degrees until tender and golden. Top with fresh parsley and serve immediately.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+    </div>
+<div class="recipe-card-6">
+    <h2 class="recipe-title">creamy corn & clam chowder with crispy chorizo</h2>
+    <img class="fish-pic" src="images/clam.jpeg" alt="clam" title="creamy corn & clam chowder with crispy chorizo">
+    <h5>recipe from <i>bon appetit</i></h5>
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>5 TBS vegtable oil, divided</li>
+        <li>4 oz. fresh chorizo</li>
+        <li>1 tsp hot smoked spanish paprika</li>
+        <li>1 medium onion, finely chopped</li>
+        <li>6 garlic cloves, thinly sliced</li>
+        <li>24 bottleneck clams (about 2 lbs), scrubbed</li>
+        <li>4 ears corn, kernals removed</li>
+        <li>1-2 TBS fresh lime juice</li>
+        <li>kosher salt</li>
+        <li>cilantro, for serving</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Heat 3 Tbsp. oil in a large pot over medium-high. Add chorizo and cook, breaking up into smaller pieces with a wooden spoon and stirring every minute or so, until browned and crisp, about 5 minutes. Sprinkle in paprika and stir to combine, then scrape chorizo and oil into a small bowl. Wipe out pot.</li>
+        <li>Pour remaining 2 Tbsp. oil into same pot and set over medium heat. Add onion and garlic and cook, stirring often and adding a splash of water if starting to brown, until softened but not browned, 10–12 minutes. Add clams and toss to combine. Cover pot and cook until clams open, 5–7 minutes. Uncover and transfer opened clams to a medium bowl, leaving liquid behind. If any clams are still closed, cover pot again and cook remaining clams until opened, about 4 minutes more. Transfer open clams to bowl; discard any that have not opened at this point. Tent bowl with foil.</li>
+        <li>Pour 3 cups water into pot and bring to a simmer. Add corn kernels and cook until tender, about 3 minutes. Remove pot from heat and purée one third of chowder in a blender until very smooth. Return purée to pot and mix well. (Or use an immersion blender if you have one and blend directly in the pot until you’ve blended about one third and chowder is partly thickened.) Stir in lime juice; taste and season with salt if needed.</li>
+        <li>Divide chowder among shallow bowls and add clams. Spoon chorizo and oil over and scatter some cilantro on top.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+<div class="recipe-card-3">
+    <h2 class="recipe-title">steamed pork dumplings</h2>
+    <img class="fish-pic" src="images/dumplings.jpeg" alt="dumplings" title="steamed pork dumplings">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>100 (3.5 inch square) wonton wrappers</li>
+        <li>1 ¾ pounds ground pork</li>
+        <li>1 tablespoon minced fresh ginger root</li>
+        <li>4 cloves garlic, minced</li>
+        <li>2 tablespoons thinly sliced green onion</li>
+        <li>4 tablespoons soy sauce</li>
+        <li>3 tablespoons sesame oil</li>
+        <li>1 egg, beaten</li>
+        <li>5 cups finely shredded Chinese cabbage</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>In a large bowl, combine the pork, ginger, garlic, green onion, soy sauce, sesame oil, egg and cabbage. Stir until well mixed.</li>
+        <li>Place 1 heaping teaspoon of pork filling onto each wonton skin. Moisten edges with water and fold edges over to form a triangle shape. Roll edges slightly to seal in filling. Set dumplings aside on a lightly floured surface until ready to cook.</li>
+        <li>Arrange dumplings in a covered bamboo or metal steamer so they don't touch to prevent them from sticking together; steam for 15 minutes, or until pork is cooked through.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 10</span></p></div>
+   </div>
+   <div class="recipe-card-4">
+    <h2 class="recipe-title">oysters rockefeller</h2>
+    <img class="fish-pic" src="images/oyster.jpeg" alt="oysters rockefeller" title="oysters rockefeller">
+    <h5>recipe by <i>chef dennis littely</i></h5>
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>24 oysters live in shell</li>
+        <li>4 tbsp butter</li>
+        <li>2 shallots, finely minced</li>
+        <li>10 oz baby spinach</li>    
+        <li>12 oz heavy cream</li>   
+        <li>½ cup romano cheese</li>    
+        <li>½ tsp black pepper</li>   
+        <li>1 tbsp lemon juice</li>    
+        <li>¼ cup panko bread crumbs</li>    
+        <li>1 tbsp pernod or white wine optional</li> 
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Rinse and clean the oysters</li>
+        <li>Carefully open the oysters and using a paring knife cut under the oyster releasing it from the shell. Place the open oysters on a sheet pan and refrigerate until needed.</li>
+        <li>in a large saute pan or wide bottom pot, melt the butter.</li>
+        <li>Add the shallots to the melted butter and saute over medium heat for 3-4 minutes. Do not let them burn.</li>
+        <li>Add the spinach and saute until the spinach is wilted.</li>
+        <li>If you want to add Pernod or white wine, now is the time to add the wine to the pan.</li>
+        <li>Place the finished mixture into the refrigerator. Allow the spinach mixture to completely cool and solidify.</li>
+        <li>Place one tablespoon of the spinach mixture on top of each oyster.</li>
+        <li>Top each finished oyster with the panko bread crumbs.</li>
+        <li>Place the oysters in a 375 degree F. oven for 15-20 minutes or until the topping is golden brown.</li>
+        <li>Serve the oysters on a bed of rock salt with lemon slices.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 24</span></p></div>
+   </div>
+</div>
+<div class="sitemap">
+    <ul class="column">
+        <li><a class="big" href="index.html">homepage</a></li>
+        
+        <li><a class="big" href="apps.html">appetizers</a>
+        <ul>
+            <li><a href="apps.html">moules marinière</a></li>
+            <li><a href="apps.html">gruyère stuffed mushrooms</a></li>
+            <li><a href="apps.html">creamy corn & clam chowder with crispy chorizo</a></li>
+            <li><a href="apps.html">steamed pork dumplings</a></li>
+            <li><a href="apps.html">oysters rockefeller</a></li>
+        </ul>
+        </li>
+
+        <li><a class="big" href="dinner.html">dinner</a>
+        <ul>
+            <li><a href="dinner.html">calabrian chili poached fish</a></li>
+            <li><a href="dinner.html">garlic & herb dry brined turkey</a></li>
+            <li><a href="dinner.html">pan-seared scallops with chorizo & corn</a></li>
+            <li><a href="dinner.html">shrimp & grits</a></li>
+            <li><a href="dinner.html">coq au vin</a></li>
+        </ul>
+        </li>
+    </ul>
+    <ul class="column">
+        <li><a class="big" href="desserts.html">desserts</a></li>
+
+        <li><a class="big" href="bakedgoods.html">baked goods</a></li>
+
+        <li><a class="big" href="contact.html">contact</a></li>
+    </ul>
+</div>
+</body>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<head>
+    <style>
+         body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+        nav{
+            background-color:white;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            height:60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,2);
+            outline: 1.5px solid #f90804;
+        }
+        nav a{
+            text-decoration:none;
+            font-size: 16px;
+            font-weight:bold;
+            color:#f90804;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li{
+            margin-right: 20px;
+        }
+.app-title{
+            text-align:center;
+            background-color:#fedadc;
+        }
+.five{
+   text-align:center;
+  font-weight:lighter;
+  color:black;
+}
+.recipe-title{
+    text-align:center;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.recipe-card{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1200px;
+}
+.recipe-card-2{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1000px;
+}
+.recipe-card-3{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1500px;
+}
+.recipe-card-4{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1300px;
+}
+.recipe-ingredients{
+    color:black;
+    margin-bottom:20px;
+    
+}
+.recipe-ingredients li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.chili-oil{
+    color:#f90804;
+    font-weight:lighter;
+}
+.list{
+    color:#f90804;
+    font-weight:bold;
+}
+.fish{
+    color:#f90804;
+    font-weight:lighter;
+}
+.recipe-instructions{
+    color:black;
+    text-align:left;
+    margin-bottom:20px;
+}
+.recipe-instructions ol{
+    margin-left: 20px;
+}
+.recipe-instructions li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.fish-pic{
+    float:right;
+    height:400px;
+}
+.sitemap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: white;
+    border:1.5px solid #f90804;
+    margin-top:10px;
+}
+.column{
+    flex-basis:45%;
+}
+.column li{
+    margin-bottom:1em;
+}
+.column a{
+    color:black;
+    font-size:14px;
+    text-decoration:none;
+}
+.column ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.circle{
+    display:inline-block;
+    border-radius:50%;
+    color:white;
+    padding:0.2em 0.5em;
+    background-color:#f90804;
+}
+.lime{
+    position: left;
+    height:60px;
+    padding:20px
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="lime" src="images/lime.jpg" alt="lime" title="lime">
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="apps.html">appetizers</a></li>
+            <li><a href="dinner.html">dinner</a></li>
+            <li><a href="desserts.html">desserts</a></li>
+            <li><a href="bakedgoods.html">baked goods</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul> 
+        <img class="lime" src="images/cookie.2.jpg" alt="lime" title="lime">
+    </nav>
+   <div class="app-title"><h1>dinner</h1></div> 
+   <div class="five">FIVE DELICOUS DINNER RECIPES</div>
+   <div class="recipe-card">
+    <h2 class="recipe-title">calabrian chili poached fish with fried capers</h2>
+    <img class="fish-pic" src="images/fish.jpeg" alt="fish" title="calabrian chili poached fish">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <div class="chili-oil">for the fried caper chili oil</div>
+        <li>1 jar capers, drained and patted dry</li>
+        <li>1 cup thinly sliced shallots</li>
+        <li>1 cup thinly sliced garlic</li>
+        <li>2 TBS chopped Calabrian chilis</li>
+        <li>2 cups olive oil</li>
+        <div class="fish">for the fish & sauce</div>
+        <li>4 (8oz) cod fillets, can substitute with halibut or any firm, white fish</li>
+        <li>2 lbs compari tomatoes quartered</li>
+        <li>1/4 cup dry white wine</li>
+        <li>2 TBS reserved chili oil</li>
+        <li>4 anchovy fillets, optional</li>
+        <li>1 tsp sea salt, more to taste</li>
+        <li>1/4 cup fresh chopped parsley</li>
+        <li>lemon wedge, for serving</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <div class="chili-oil">make the chili oil</div>
+        <li>Heat a large high sided pan, on medium heat. Add the 2 cups of olive oil and heat the oil until shimmering, about 5 minutes. Next, carefully add the sliced shallots, garlic, capers and Calabrian chilis. Fry until golden brown, about 5-7 minutes, being careful not to burn.</li>
+        <li>Carefully strain the mixture into a heat proof bowl. Transfer the fried shallots, garlic and capers to a paper towel lined plate to fully cool.</li>
+        <div class="chili-oil">cook the fish</div>
+        <li>Add about 2 tbsp of the strained oil back to the pan. Heat over medium high and add the quartered tomatoes, anchovies, wine and a pinch of salt. Cook until the tomatoes have released their juices and have reduced by half.</li>
+        <li>Taste the tomato mixture and season accordingly before adding the fish.</li>
+        <li>Reduce the heat to a low simmer. Season fish with salt on both sides. Carefully transfer the fish to the pan, submerging in the tomatoes. Spoon tomatoes on top of fish, cover the pan with a lid, and poach for 7 minutes or until the fish is fully cooked.</li>
+        <li>To check if the fish is done, the flesh should be opaque and flakey when poked with a fork.</li>
+        <li>Transfer each serving to a bowl. Top with fried shallots, garlic, capers, parsley, and a squeeze of lemon juice. Enjoy with toasted bread.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+   <div class="recipe-card">
+    <h2 class="recipe-title">garlic and herb dry brined turkey</h2>
+    <img class="fish-pic" src="images/turkey.jpeg" alt="turkey" title="garlic and herb dry brined turkey">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <div class="chili-oil">for dry brine</div>
+       <li>10 sprigs thyme</li>
+       <li>6 sprigs sage</li>
+       <li>4 sprigs rosemary</li>
+       <li>4 large cloves garlic, chopped</li>
+       <li>2 tsp celery seeds</li>
+       <li>1/2 tsp coarsely ground black pepper</li>
+       <li>1/2 cup kosher salt</li>
+       <li>2 TBS sugar</li>
+        <div class="fish">for the rest of the turkey</div>
+        <li>1 12-14 lb turkey, giblets and neck removed</li>
+        <li>1 medium onion</li>
+        <li>1 head of garlic, halved</li>
+        <li>1-2 bunches of herbs</li>
+        <li>1/4 cup unsalted butter, room temp</li>
+        <li>2 cups low-sodium chicken broth</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <div class="chili-oil">for dry brine</div>
+        <li>Chop thyme, sage, and rosemary sprigs and pulse in a food processor with garlic, celery seeds, and pepper until a coarse paste forms. Add salt and sugar and pulse until blended, about 30 seconds.</li>
+        <li>DO AHEAD: Dry brine can be made 3 days ahead. Cover and chill.</li>
+        <div class="chili-oil">for the turkey</div>
+        <li>Rub dry brine all over turkey; chill uncovered, 6–7 hours.</li>
+        <li>Preheat oven to 425°. Rinse turkey under cold water; pat dry and place, breast side up, on a rack set in a large roasting pan. Stuff turkey with onion, garlic, and herbs. Working from neck end of turkey, gently loosen skin from breasts and rub butter under skin and all over outside of bird. Tie legs together with kitchen twine, pour broth into pan, and roast turkey 30 minutes. Reduce oven temperature to 325° and roast, basting with pan juices every 30–40 minutes, adding more broth as needed to maintain some liquid in pan, and tenting with foil if skin is browning too quickly, until an instant-read thermometer inserted into thickest part of thigh registers 165°, 2½–3 hours.</li>
+        <li>Transfer turkey to a platter; tent with foil. Let rest at least 30 minutes before carving.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 8-10</span></p></div>
+    </div>
+<div class="recipe-card-2">
+    <h2 class="recipe-title">pan-seared scallops with chorizo and corn</h2>
+    <img class="fish-pic" src="images/corn-scallops.jpeg" alt="scallops" title="pan-seared scallops with chorizo and corn">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>3 ears corn, husked</li>
+        <li>3 TBS extra-virgin olive oil</li>
+        <li>2 oz. smoked spanish chorizo, finely chopped</li>
+        <li>12 scallions, white and pale green parts only, finely sliced</li>
+        <li>4 arlic cloves, thinly sliced</li>
+        <li>1/2-1 serrano chile, finely chopped</li>
+        <li>3/4 tsp kosher salt, plus more</li>
+        <li>1 cup buttermilk</li>
+        <li>1/3 cup chopped cilantro</li>
+        <li>12 large sea scallops, side muscle removed, patted dry</li>
+        <li>2 TBS unsalted butter</li>
+        <li>1 lime, halved</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Cut kernels from corncobs and place in a medium bowl. Using the back of a chef’s knife, scrape milk from cobs into the bowl; discard cobs.</li>
+        <li>Heat 1 Tbsp. oil in a medium saucepan over medium. Cook chorizo, stirring occasionally, until it starts to get crisp, about 2 minutes. Carefully pour chorizo oil into a small bowl (use a slotted spoon to hold back chorizo); set chorizo oil aside. Return chorizo pan to medium heat and add scallions, garlic, chile, 1 Tbsp. olive oil, and ¾ tsp. salt. Cook, stirring occasionally, until vegetables are softened but not browned, about 2 minutes. Add corn kernels and cook, stirring occasionally, until bright yellow and softened, 5–7 minutes. Remove from heat and let corn mixture cool in pan 5 minutes. Gently mix in buttermilk and cilantro. Taste and season with more salt if needed.</li>
+        <li>Season scallops generously with salt. Heat reserved chorizo oil and remaining 1 Tbsp. olive oil in a large skillet over medium-high until just beginning to smoke. Cook scallops on one side, reducing heat if they are taking on too much color and moving around in pan for even browning, until a golden brown crust forms on the bottom, about 3 minutes.</li>
+        <li>Reduce heat to medium-low and turn scallops over. Add butter to skillet and, using a spoon, baste scallops with butter 30 seconds. Transfer scallops to a plate. Squeeze halved lime over.</li>
+        <li>Divide corn mixture among plates and arrange scallops on top. Serve with lime wedges for squeezing over.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+<div class="recipe-card-3">
+    <h2 class="recipe-title">shrimp & grits</h2>
+    <img class="fish-pic" src="images/shrimp.jpeg" alt="shrimp" title="shrimp and grits">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <div class="chili-oil">cheese grits</div>
+        <li>4 1/2 cups water</li>
+        <li>1 cup stoneground grits</li>
+        <li>1 tsp salt</li>
+        <li>3/4 cup sharp cheddar cheese</li>
+        <li>1/4 cup parmesan</li>
+        <li>3 TBS butter</li>
+        <li>1/2 tsp freshly ground pepper</li>
+        <li>1/2 tsp Tobasco, or to taste</li>
+        <div class="fish">shrimp</div>
+        <li>3 bason strips, chopped</li>
+        <li>peanut oil, as needed</li>
+        <li>1 lb extra-large shrimp, peeled and deveined</li>
+        <li>2 TBS flour</li>
+        <li>1 large garlic clove, minced</li>
+        <li>2 tsp lemon juice</li>
+        <li>1/2 tsp Tobasco, or to taste</li>
+        <li>1/4 cup thinly sliced green onions, plus more to garnish</li>
+        <div class="chili-oil">mushroom spinach wine sauce</div>
+        <li>8 oz sliced mushrooms</li>
+        <li>2 cups loosely packed spinach</li>
+        <li>2 garlic cloves, minced</li>
+        <li>1/2 cup dry white wine</li>
+        <li>5 TBS butter, divided</li>
+        <li>1 TBS olive oil</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <div class="chili-oil">grits</div>
+        <li>Bring 4 1/2 cups of water to a boil in a large saucepan over high heat. Whisk in the grits and salt, reduce heat to low, and simmer for 35-40 minutes or until grits are thick, stirring occassionally. Stir more often as the grits thicken. Remove the pan from the heat, add the cheddar, parmesean, butter, pepper, and Tobasco, and stir until smooth.</li>
+        <div class="chili-oil">shrimp</div>
+        <li>In a medium skillet over medium-high heat, cook the bacon for 6 minutes or until crisp, stirring occassionally. Transfer with a slotted spoon to drain on paper towels and leave the fat in the skillet.</li>
+        <li>Toss the shrimp with the flour until lightly coated, shaking off any excess. In the skillet with the reserved fat, cook the shrimp over medium-high heat for 1 minute or until they begin to turn pink. Add the bacon and cook for 1 minute. Add the garlic and cook, stirring, for 30 seconds(do not let the garlic brown). Stir in the hot sauce, lemon juice, and scallions and remove from the heat.</li>
+        <div class="chili-oil">sauce</div>
+        <li>Add 2 TBS of butter and olive oil in a saucepan and melt. Add mushrooms and "sweat" until mushrooms have released all water, about 10 minutes. Add spinach and garlic and cook until reduced by half. Add wine and reduce by half. Add the rest of the butter one TBS at a time until it is completely melted.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+   <div class="recipe-card-4">
+    <h2 class="recipe-title">coq au vin</h2>
+    <img class="fish-pic" src="images/coqauvin.jpeg" alt="coq au vin" title="coq au vin">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>4 chicken thighs</li>
+        <li>4 chicken drumsticks</li>
+        <li>1 ½ cups red wine</li>
+        <li>1 cup chicken stock</li>    
+        <li>Optional: ¼ cup brandy</li>   
+        <li>3 strips bacon, cut into ½ inch pieces</li>    
+        <li>1 medium onion, quartered then thinly sliced</li>   
+        <li>4 medium carrots, cut into 1-inch piece</li>    
+        <li>4 cloves garlic, minced</li>    
+        <li>2 tablespoons tomato paste</li>    
+        <li>2 teaspoons fresh thyme leaves</li>    
+        <li>8 ounces mushrooms, thickly sliced</li>   
+        <li>8 ounces pearl onions, peeled</li>    
+        <li>Beurre manie, see notes for the options</li>    
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Place the chicken thighs and drumsticks in a medium-sized bowl and pour the wine, chicken stock, and (if using) the brandy over the top. Prep the vegetables.</li>
+        <li>Add the bacon to a large, high-sided pan or braiser over medium-high heat. Cook until the bacon is crispy, about 8 minutes, then remove it from the pan with a slotted spoon.</li>
+        <li>Remove the chicken from the wine marinade (save the wine) and dry the chicken with paper towels. Working in 2 batches if needed, place the chicken in the pan, skin side down. Sear until it is golden on both sides (about 5 minutes on each side) and then remove the chicken. Pour all but 2 tablespoons of the bacon/chicken oil into a heatproof dish and set it aside.</li>
+        <li>Add the sliced onion and carrots to the pan and let them cook until the onion is golden brown, about 7-8 minutes. Add the garlic to the pan and let it cook for 1 minute.</li>
+        <li>Push the vegetables to the side of the pan and add the tomato paste. Cook the tomato paste until it is fragrant and begins to darken. Pour the reserved wine marinade into the pan, scraping the bottom to remove any stuck-on bits.</li>
+        <li>Nestle the chicken into the pan and sprinkle the thyme over top. Cover the pan, turn the heat to low, and simmer for 20 minutes.</li>
+        <li>Pour 1 tablespoon of the reserved oil (or use olive oil) into a large skillet. Add the mushrooms and saute over medium-high heat until brown, about 10 minutes.</li>
+        <li>Add the pearl onions to the pan with the chicken and cook for 10 minutes more.</li>
+        <li>In a small bowl mix together your choice of beurre manie. Remove the chicken from the pan then add the beurre manie. Stir it into the sauce and let it thicken. Season to taste with salt and pepper.</li>
+        <li>Add the chicken back into the pan and top with the cooked bacon and mushrooms. Sprinkle with a little fresh thyme.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 4</span></p></div>
+   </div>
+</div>
+<div class="sitemap">
+    <ul class="column">
+        <li><a class="big" href="index.html">homepage</a></li>
+        
+        <li><a class="big" href="apps.html">appetizers</a>
+            <ul>
+                <li><a href="apps.html">moules marinière</a></li>
+                <li><a href="apps.html">gruyère stuffed mushrooms</a></li>
+                <li><a href="apps.html">creamy corn & clam chowder with crispy chorizo</a></li>
+                <li><a href="apps.html">steamed pork dumplings</a></li>
+                <li><a href="apps.html">oysters rockefeller</a></li>
+            </ul>
+            </li>
+
+        <li><a class="big" href="dinner.html">dinner</a>
+        <ul>
+            <li><a href="dinner.html">calabrian chili poached fish</a></li>
+            <li><a href="dinner.html">garlic & herb dry brined turkey</a></li>
+            <li><a href="dinner.html">pan-seared scallops with chorizo & corn</a></li>
+            <li><a href="dinner.html">shrimp & grits</a></li>
+            <li><a href="dinner.html">coq au vin</a></li>
+        </ul>
+        </li>
+    </ul>
+    <ul class="column">
+        <li><a class="big" href="desserts.html">desserts</a></li>
+
+        <li><a class="big" href="bakedgoods.html">baked goods</a></li>
+
+        <li><a class="big" href="contact.html">contact</a></li>
+    </ul>
+</div>
+</body>
