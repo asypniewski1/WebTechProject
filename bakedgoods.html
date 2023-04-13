@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>baked goods</title>
     <style>
-         body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+         body{
+            background-color: white; 
+            color:#f90804; 
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
         nav{
             background-color:white;
             display:flex;
@@ -40,6 +43,113 @@
   font-weight:lighter;
   color:black;
 }
+.recipe-title{
+    text-align:center;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.recipe-card{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:650px;
+}
+.recipe-card-2{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height: 1050px;
+}
+.recipe-card-3{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:700px;
+}
+.recipe-card-4{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1020px;
+}
+.recipe-card-5{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding:20px;
+    margin:20px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    width:900px;
+    height:1400px;
+}
+.recipe-ingredients{
+    color:black;
+    margin-bottom:20px;
+    
+}
+.recipe-ingredients li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.chili-oil{
+    color:#f90804;
+    font-weight:lighter;
+}
+.list{
+    color:#f90804;
+    font-weight:bold;
+}
+.fish{
+    color:#f90804;
+    font-weight:lighter;
+}
+.recipe-instructions{
+    color:black;
+    text-align:left;
+    margin-bottom:20px;
+}
+.recipe-instructions ol{
+    margin-left: 20px;
+}
+.recipe-instructions li{
+    margin:10px 0;
+    border-bottom:1px solid black;
+}
+.fish-pic{
+    float:right;
+    height:400px;
+}
 .sitemap{
     display:flex;
     flex-wrap:wrap;
@@ -72,6 +182,21 @@
     height:60px;
     padding:20px
 }
+.circle{
+    display:inline-block;
+    border-radius:50%;
+    color:white;
+    padding:0.2em 0.5em;
+    background-color:#f90804;
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color:#f90804;
+}
+.by{
+    color:black;
+}
     </style>
 </head>
 <body>
@@ -89,6 +214,141 @@
     </nav>
    <div class="app-title"><h1>baked goods</h1></div> 
    <div class="five">FIVE DELICOUS BAKED GOOD RECIPES</div>
+
+   <div class="recipe-card">
+    <h2 class="recipe-title">aunt michelle's french bread</h2>
+    <img class="fish-pic" src="images/pie.jpeg" alt="french bread" title="aunt michelle's french bread">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>1 1/2 cup water</li>
+        <li>1 1/2 tsp sugar</li>
+        <li>1 1/2 tsp salt</li>
+        <li>3 TBS honey</li>
+        <li>2 TBS olive oil</li>
+        <li>4 cups bread flour, plus more for work surface</li>
+        <li>1 1/2 tsp yeast</li>
+        
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Place all ingreidents, in order, into bread machine. Put on dough cycle.</li>
+        <li>After dough cycle is complete, place dough on floured surface and form into desired shape. Place in desired bread dish and place a damp cloth over it. Place in a warm spot and let rise until doubled in size.</li>
+        <li>Preheat oven to 375 degrees. Bake for 18-20 mins. Brush with water or egg wash with 5 minutes left.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 12</span></p></div> <div>recipe by aunt michelle</div>
+   </div>
+   <div class="recipe-card-2">
+    <h2 class="recipe-title">focaccia bread</h2>
+    <img class="fish-pic" src="images/chiffon.jpeg" alt="focaccia" title="focaccia bread">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+       <li>1 pkg dry active yeast</li>
+       <li>6 cups bread flour</li>
+       <li>1 TBS kosher salted</li>
+       <li>1/2 cup olive oil, plus more for oiling hands</li>
+       <li>additional toppings: I used tomatoes and garlic</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>In a small sauce pan, warm 1/2 cup water over low heat, just until it’s lukewarm, about 105F. Pour the water into the bowl of the stand mixer and whisk in the yeast to dissolve. Set this aside until the mixture is cloudy and slightly puffed, will take about 5 minutes.</li>
+        <li>Add 2 1/2 cups [567g] room-temp water to the yeast mixture + add in the flour and kosher salt. Using the dough hook, mix on the lowest speed until a loose dough comes together, for about a minute. Then increase the speed to med-high and mix until the dough is smooth and wrapping around the hook, about 5 minutes. Cover the bowl and allow the dough to rest for 10 minutes. Mix again on med-high speed, the dough should be smooth, elastic, and pulling away from the bowl, for about 10-15 minutes. ** THE DOUGH WILL BE STICKY**</li>
+        <li>In a separate bowl, pour 1/4 cup of the oil into a separate large bowl and coat. Scrape the dough into the bowl and coat the dough. Take a photo before covering so you can gauge the rise. Cover with a damp towel and let rise for 1-1 1/2 hours.</li>
+        <li>Drizzle 1/4 cup oil across a cookie sheet, coating the entire thing. With your oiled hands, slide your hand around either side of the dough and lift it out of the bowl. Let the dough weigh itself down back into the bowl. Rotate the bowl 90 degrees and repeat this process two more times. This allows the dough to rise more. Place the dough on the oiled baking sheet. Stretch the dough out in all directions, it’s not going to fully cover the pan yet, don’t stress. Cover and let sit for 15 minutes.</li>
+        <li>Uncover and stretch the dough again so it fits all the sides of the sheet. Cover again and let rise in the fridge for 24 hours. OR you can let is sit for another 40-55 minutes before cooking.</li>
+        <li>Preheat the oven to 450F, place two oven racks on the highest and lowest positions. Uncover the risen dough with oiled hands and with wide hands, press your finger tips into the dough making dimples across the surface.</li>
+        <li>Bake on the lower rack for about 20-25 minutes and then transfer to the top rack until it begins to brown for about 5 minutes. Pay attention to the color here.</li>
+
+    </ol>
+    <div><p><span class="circle">serving size: 12</span></p></div> <div>recipe from claire saffitz's cooking - dessert person</div>
+    </div>
+<div class="recipe-card-5">
+    <h2 class="recipe-title">sour cream and chive rolls</h2>
+    <img class="fish-pic" src="images/cookies.jpeg" alt="rolls" title="sour cream and chive rolls">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>½ cup plus 2 TBS whole milk</li>
+        <li>5⅓ cups bread flour, divided, plus more</li>
+        <li>1½ tsp active dry yeast</li>
+        <li>1 cup sour cream, room temperature</li>
+        <li>¼ cup sugar</li>
+        <li>4 tsp kosher salted</li>
+        <li>3 large eggs</li>
+        <li>8 TBS unsalted butter, divided, room temperature</li>
+        <li>½ cup finely chopped chives</li>
+        <li>flaky sea salt</li>
+        <li>freshly ground pepper</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Whisk ½ cup milk, ⅓ cup flour (42 g), and ½ cup water in a small saucepan until smooth. Cook over medium heat, whisking constantly, until a very stiff paste forms (it should resemble mashed potatoes), about 2 minutes. Remove from heat; scrape tangzhong into the bowl of a stand mixer fitted with the dough hook.</li>
+        <li>Add sour cream, sugar, kosher salt, 2 eggs, 4 Tbsp. butter, and remaining 5 cups bread flour (625 g) to tangzhong. Scrape in yeast mixture and mix on low speed until a shaggy dough forms. Increase speed to medium and mix, scraping down sides of bowl occasionally and adding more flour by the tablespoonful if sticky, until dough is smooth and supple, 8–10 minutes.</li>
+        <li>Scrape dough onto a work surface and form into a smooth ball; dust lightly with flour. Place inside a clean large bowl and cover with plastic wrap or a silicone lid. Let sit in a warm, draft-free spot until doubled in size, 1–1½ hours.</li>
+        <li>Meanwhile, coat a 13x9" pan, preferably metal, with 2 Tbsp. butter (it will be a generous layer, which is what you want). Uncover dough and punch down lightly to expel some of the gas.</li>
+        <li>Turn dough out onto a lightly floured surface and stretch into a square.</li>
+        <li>Roll out, dusting with more flour as needed to prevent sticking, to a 12" square and sprinkle chives evenly over dough.</li>
+        <li>Starting at one end, loosely roll up dough. Flatten with the heel of your hands into a long rectangle. Roll out dough again, dusting with more flour as needed, into a 16x6" rectangle.</li>
+        <li>Using a wheel cutter or bench scraper, cut dough into twenty-four 2"-squarish pieces (an 8x3 grid).</li>
+        <li>Working with 1 piece of dough, gather all the corners and pinch together to form a teardrop shape. Place seam side down on work surface. Cup your hand over dough and drag across surface, moving your hand in a rapid circular motion, to form dough into a tight ball. Do not add flour, as you want friction between the dough and the surface. Place ball in prepared pan and repeat with remaining pieces of dough, spacing to make a 6x4 grid. Cover pan with plastic wrap and let sit in a warm, draft-free spot until rolls are nearly doubled in size, 45–60 minutes.</li>
+        <li>Meanwhile, place a rack in middle of oven; preheat to 375°.</li>
+        <li>Using a fork, whisk remaining egg in a small bowl until no streaks remain. Uncover pan and gently brush tops of rolls with egg, then sprinkle with sea salt and pepper. Bake rolls until tops are deep golden brown, 25–30 minutes.</li>
+        <li>Remove pan from oven and immediately brush tops with remaining 2 Tbsp. butter. Let cool in pan 5 minutes. Slide a knife or an offset spatula around sides of pan to loosen rolls, then slide a metal spatula underneath to loosen the bottom. Slide entire grid of rolls out and onto a wire rack. Serve warm or let cool.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 24</span></p></div> <div><a href="https://www.bonappetit.com/recipe/pull-apart-sour-cream-and-chive-rolls">recipe by bon appétit - link here!</a></div>
+   </div>
+<div class="recipe-card-3">
+    <h2 class="recipe-title">chocolate chip banana bread</h2>
+    <img class="fish-pic" src="images/bday.jpeg" alt="banana" title="chocolate chip banana bread">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>1/4 cup vegetable oil</li>
+        <li>1 1/2 cups flour</li>
+        <li>1 cup sugar</li>
+        <li>1 tsp baking soda</li>
+        <li>1/2 tsp salt</li>
+        <li>2 eggs, lightly beaten</li>
+        <li>3 bananas, mashed (1 cup mashed banana)</li>
+        <li>1 cup chocolate chips</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Pre-heat the oven to 350°F.</li>
+        <li>Grease and flour a 8 1/2-inch x 4 1/2-inch loaf pan (or use baking spray).</li>
+        <li>In a large bowl, whisk together the flour, sugar, baking soda, and salt. Mix in the oil, bananas, and eggs. Stir in the chocolate chips (do not over-mix!) and pour into the prepared pan.</li>
+        <li>Bake until a toothpick inserted in the center comes out clean, about 60-80 minutes. Cool the loaf in the pan for 10 minutes, then turn out and cool completely, right side up.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 8-10</span></p></div> <div class="by"><a href="https://rachaelray.com/blogs/recipes/chocolate-chip-banana-bread">recipe my rachael ray - link here!</a></div>
+   </div>
+   <div class="recipe-card-4">
+    <h2 class="recipe-title">pumpkin bread with salted maple butter</h2>
+    <img class="fish-pic" src="images/figcake.jpeg" alt="pumpkin bread" title="pumpkin bread">
+    <ul class="recipe-ingredients">
+        <div class="list">ingredients</div>
+        <li>2½ cups all-purpose flour</li>
+        <li>2 tsp ground cinnamon</li>
+        <li>2 tsp kosher salt</li>
+        <li>1 tsp baking powder</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp freshly grated nutmeg</li>
+        <li>⅛ tsp ground cloves</li>
+        <li>2 large eggs</li>
+        <li>1 15-oz. can pumpkin purée</li>
+        <li>1 TBS plus 1 tsp finely grated ginger</li>
+        <li>1½ cups plus 1 TBS sugar</li>
+        <li>1 cup extra-virgin olive oil</li>
+        <li>½ cup raw pumpkin seeds</li>
+    </ul>
+    <ol class="recipe-instructions">
+        <div class="list">instructions</div>
+        <li>Preheat oven to 325°. Lightly coat a 9x5" loaf pan with nonstick spray. Line bottom of pan with parchment, leaving a generous overhang on both long sides.</li>
+        <li>Whisk flour, cinnamon, kosher salt, baking powder, baking soda, nutmeg, and cloves in a medium bowl.</li>
+        <li>Whisk eggs, pumpkin purée, ginger, and 1½ cups sugar in a large bowl. Stream in oil, whisking constantly until mixture is homogeneous. Gently fold half of dry ingredients into egg mixture until no dry spots remain. Repeat with remaining dry ingredients, stirring to combine but being careful not to overmix.</li>
+        <li>Transfer batter to prepared pan; smooth top with a spatula. Scatter pumpkin seeds over batter, pressing lightly to adhere. Sprinkle seeds with remaining 1 Tbsp. sugar. Bake bread, rotating pan once halfway through, until a tester inserted into the center comes out clean, 80–90 minutes.</li>
+        <li>Let cool slightly, then run a knife or small offset spatula around pan to help loosen bread. Using overhang, transfer bread to a wire rack and let cool.</li>
+    </ol>
+    <div><p><span class="circle">serving size: 8</span></p></div><div><a href="https://www.bonappetit.com/recipe/pumpkin-bread-with-salted-maple-butter">recipe by bon appétit - link here!</a></div>
+   </div>
+</div>
+
    <div class="sitemap">
     <ul class="column">
         <li><a class="big" href="index.html">homepage</a></li>
