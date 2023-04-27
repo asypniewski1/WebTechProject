@@ -111,6 +111,21 @@
     height:60px;
     padding:20px
 }
+.share{
+    margin:0;
+    padding:0;
+    background-color: white;
+    border:1.5px solid #f90804;
+    margin-top:10px;
+    color:black;
+    text-align:center;
+    padding-bottom: 10px;
+}
+button{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
     </style>
 </head>
 <body>
@@ -153,6 +168,25 @@
         </div>
     </div>
     </div>
+    <script>
+        let galleryIndex = 0;
+        showGallery();
+
+        function showgallery() {
+            let i;
+            const gallery = document.getElementsByClassName("gallery");
+            const images = gallery[0].getElementsByTagName("img");
+            for (i = 0; i < images.legnth; i++) {
+                images[i].style.display = "none"
+            }
+            galleryIndex++;
+            if (galleryIndex > images.length) {
+                galleryIndex = 1;
+            }
+            images[galleryIndex - 1].style.display = "block";
+            setTimeout(showGallery, 2000);
+        }
+    </script>
     <div class="sitemap">
         <ul class="column">
             <li><a class="big" href="index.html">homepage</a></li>
@@ -170,4 +204,18 @@
             <li><a class="big" href="contact.html">contact</a></li>
         </ul>
     </div>
+    <div class="share">
+        <p>share the recipes from this page with your friends and family!</p>
+        <button id="email">share via email!</button>
+        <script>
+            const currentUrl = window.location.href;
+            
+            const button = document.getElementById('email');
+            button.addEventListener('click',function shareByEmail() {
+                const emailUrl = `mailto:?subject=Check%20out%20these%20recipes!&body=${currentUrl}`;
+                window.open(emailUrl);
+            } );
+        </script>
+    </div>
 </body>
+</html>
