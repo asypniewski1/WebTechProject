@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>appetizers</title>
     <style>
-         body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-        nav{
+body{
+    background-color: white; 
+    color:#f90804; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
             background-color:white;
             display:flex;
             justify-content: center;
@@ -18,21 +22,28 @@
             outline: 1.5px solid #f90804;
             align-items: center;
         }
-        nav a{
+ nav a{
             text-decoration:none;
             font-size: 16px;
             font-weight:bold;
             color:#f90804;
         }
-        nav ul{
+nav ul{
             list-style-type: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
-        nav li{
+ nav li{
             margin-right: 20px;
         }
+nav a:hover{
+    background-color: pink;
+    color:white;
+    font-size: 16px;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
 .app-title{
             text-align:center;
             background-color:#fedadc;

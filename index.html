@@ -2,8 +2,12 @@
 <head>
 <title>homepage</title>
     <style>
-        body{background-color: white; color:#f90804; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-        nav{
+body{
+    background-color: white; 
+    color:#f90804; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
             background-color:white;
             display:flex;
             justify-content: center;
@@ -12,29 +16,36 @@
             box-shadow: 0 2px 5px rgba(0,0,0,2);
             outline: 1.5px solid #f90804;
         }
-        nav a{
+nav a{
             text-decoration:none;
             font-size: 16px;
             font-weight:bold;
             color:#f90804;
         }
-        nav ul{
+nav ul{
             list-style-type: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
-        nav li{
+nav li{
             margin-right: 20px;
         }
-        .container{
+nav a:hover{
+    background-color: pink;
+    color:white;
+    font-size: 16px;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+.container{
             display:flex;
         } 
-        .text{
+.text{
             flex:1;
             padding:20px;
         }
-        .gallery{
+ .gallery{
             display:grid;
             flex-wrap:wrap;
             grid-gap:10px;
@@ -46,24 +57,24 @@
             margin-right:10px;
             background-color:#fedadc;
         }
-        .gallery img{
+.gallery img{
             width:150px;
             height:auto;
             margin-bottom: 10px;
         }
-        .gallery-column{
+.gallery-column{
             flex-basis:50%;
             float:right;
         }
-        .cooking{
+.cooking{
             text-align:center;
             background-color:#fedadc;
         }
-        .anna{
+.anna{
             text-align:center;
             font-weight:lighter;
         }
-        .text{
+.text{
             background-color:#fedadc;
         }
 .welcome{
